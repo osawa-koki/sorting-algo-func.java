@@ -5,6 +5,7 @@ import static main.java.org.example.Shuffle.Shuffle;
 import static main.java.org.example.BubbleSort.BubbleSort;
 import static main.java.org.example.SelectionSort.SelectionSort;
 import static main.java.org.example.InsertionSort.InsertionSort;
+import static main.java.org.example.MergeSort.MergeSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -30,6 +31,12 @@ public class Main {
 
     InsertionSort(ary);
     Display("Insertion Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    MergeSort(ary);
+    Display("Merge Sort", ary);
 
   }
 }
