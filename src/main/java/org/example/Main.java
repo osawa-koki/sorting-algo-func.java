@@ -11,6 +11,7 @@ import static main.java.org.example.HeapSort.HeapSort;
 import static main.java.org.example.ShellSort.ShellSort;
 import static main.java.org.example.CountingSort.CountingSort;
 import static main.java.org.example.BucketSort.BucketSort;
+import static main.java.org.example.CombSort.CombSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -72,6 +73,12 @@ public class Main {
 
     BucketSort(ary);
     Display("Bucket Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    CombSort(ary);
+    Display("Comb Sort", ary);
 
   }
 }
