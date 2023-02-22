@@ -2,6 +2,7 @@ package main.java.org.example;
 
 import static main.java.org.example.Display.Display;
 import static main.java.org.example.Shuffle.Shuffle;
+import static main.java.org.example.BubbleSort.BubbleSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -12,6 +13,9 @@ public class Main {
 
     Shuffle(ary);
     Display("Shuffled", ary);
+
+    BubbleSort(ary);
+    Display("Sorted", ary);
 
   }
 }
