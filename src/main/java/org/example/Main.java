@@ -12,6 +12,7 @@ import static main.java.org.example.ShellSort.ShellSort;
 import static main.java.org.example.CountingSort.CountingSort;
 import static main.java.org.example.BucketSort.BucketSort;
 import static main.java.org.example.CombSort.CombSort;
+import static main.java.org.example.CycleSort.CycleSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -79,6 +80,12 @@ public class Main {
 
     CombSort(ary);
     Display("Comb Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    CycleSort(ary);
+    Display("Cycle Sort", ary);
 
   }
 }
