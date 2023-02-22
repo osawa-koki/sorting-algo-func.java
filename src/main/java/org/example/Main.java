@@ -9,6 +9,7 @@ import static main.java.org.example.MergeSort.MergeSort;
 import static main.java.org.example.QuickSort.QuickSort;
 import static main.java.org.example.HeapSort.HeapSort;
 import static main.java.org.example.ShellSort.ShellSort;
+import static main.java.org.example.CountingSort.CountingSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -58,6 +59,12 @@ public class Main {
 
     ShellSort(ary);
     Display("Shell Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    CountingSort(ary);
+    Display("Counting Sort", ary);
 
   }
 }
