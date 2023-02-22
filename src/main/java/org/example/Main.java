@@ -17,6 +17,7 @@ import static main.java.org.example.PancakeSort.PancakeSort;
 import static main.java.org.example.GnomeSort.GnomeSort;
 import static main.java.org.example.StoogeSort.StoogeSort;
 import static main.java.org.example.PigeonholeSort.PigeonholeSort;
+import static main.java.org.example.OddEvenSort.OddEvenSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -114,6 +115,12 @@ public class Main {
 
     PigeonholeSort(ary);
     Display("Pigeonhole Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    OddEvenSort(ary);
+    Display("Odd-Even Sort", ary);
 
   }
 }
