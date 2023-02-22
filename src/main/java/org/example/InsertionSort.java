@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class InsertionSort {
   public static void InsertionSort(int[] ary) {

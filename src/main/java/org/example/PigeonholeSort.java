@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class PigeonholeSort {
   public static void PigeonholeSort(int[] ary) {

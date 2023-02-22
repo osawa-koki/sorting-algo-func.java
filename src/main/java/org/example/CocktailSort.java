@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class CocktailSort {
   public static void CocktailSort(int[] ary) {

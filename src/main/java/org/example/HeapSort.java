@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class HeapSort {
   public static void HeapSort(int[] ary) {

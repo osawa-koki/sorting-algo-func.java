@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class CycleSort {
   public static void CycleSort(int[] ary) {

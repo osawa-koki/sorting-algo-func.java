@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class MergeSort {
   public static void MergeSort(int[] ary) {
