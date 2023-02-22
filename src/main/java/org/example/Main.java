@@ -4,6 +4,7 @@ import static main.java.org.example.Display.Display;
 import static main.java.org.example.Shuffle.Shuffle;
 import static main.java.org.example.BubbleSort.BubbleSort;
 import static main.java.org.example.SelectionSort.SelectionSort;
+import static main.java.org.example.InsertionSort.InsertionSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -23,6 +24,12 @@ public class Main {
 
     SelectionSort(ary);
     Display("Selection Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    InsertionSort(ary);
+    Display("Insertion Sort", ary);
 
   }
 }
