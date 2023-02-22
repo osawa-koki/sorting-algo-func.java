@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class StoogeSort {
   public static void StoogeSort(int[] ary) {

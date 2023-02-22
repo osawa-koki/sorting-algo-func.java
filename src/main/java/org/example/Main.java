@@ -1,25 +1,25 @@
 package org.example;
 
-import static main.java.org.example.Display.Display;
-import static main.java.org.example.Shuffle.Shuffle;
-import static main.java.org.example.BubbleSort.BubbleSort;
-import static main.java.org.example.SelectionSort.SelectionSort;
-import static main.java.org.example.InsertionSort.InsertionSort;
-import static main.java.org.example.MergeSort.MergeSort;
-import static main.java.org.example.QuickSort.QuickSort;
-import static main.java.org.example.HeapSort.HeapSort;
-import static main.java.org.example.ShellSort.ShellSort;
-import static main.java.org.example.CountingSort.CountingSort;
-import static main.java.org.example.BucketSort.BucketSort;
-import static main.java.org.example.CombSort.CombSort;
-import static main.java.org.example.CycleSort.CycleSort;
-import static main.java.org.example.PancakeSort.PancakeSort;
-import static main.java.org.example.GnomeSort.GnomeSort;
-import static main.java.org.example.StoogeSort.StoogeSort;
-import static main.java.org.example.PigeonholeSort.PigeonholeSort;
-import static main.java.org.example.OddEvenSort.OddEvenSort;
-import static main.java.org.example.CocktailSort.CocktailSort;
-import static main.java.org.example.StarndSort.StarndSort;
+import static org.example.Display.Display;
+import static org.example.Shuffle.Shuffle;
+import static org.example.BubbleSort.BubbleSort;
+import static org.example.SelectionSort.SelectionSort;
+import static org.example.InsertionSort.InsertionSort;
+import static org.example.MergeSort.MergeSort;
+import static org.example.QuickSort.QuickSort;
+import static org.example.HeapSort.HeapSort;
+import static org.example.ShellSort.ShellSort;
+import static org.example.CountingSort.CountingSort;
+import static org.example.BucketSort.BucketSort;
+import static org.example.CombSort.CombSort;
+import static org.example.CycleSort.CycleSort;
+import static org.example.PancakeSort.PancakeSort;
+import static org.example.GnomeSort.GnomeSort;
+import static org.example.StoogeSort.StoogeSort;
+import static org.example.PigeonholeSort.PigeonholeSort;
+import static org.example.OddEvenSort.OddEvenSort;
+import static org.example.CocktailSort.CocktailSort;
+import static org.example.StarndSort.StarndSort;
 
 public class Main {
   public static void main(String[] args) {

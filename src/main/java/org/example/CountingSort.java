@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class CountingSort {
   public static void CountingSort(int[] ary) {

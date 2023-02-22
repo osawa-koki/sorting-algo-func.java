@@ -1,6 +1,6 @@
-package main.java.org.example;
+package org.example;
 
-import static main.java.org.example.IsSorted.IsSorted;
+import static org.example.IsSorted.IsSorted;
 
 public class Display {
   public static void Display(String title, int[] ary) {

@@ -1,4 +1,4 @@
-package main.java.org.example;
+package org.example;
 
 public class ShellSort {
   public static void ShellSort(int[] ary) {
