@@ -8,6 +8,7 @@ import static main.java.org.example.InsertionSort.InsertionSort;
 import static main.java.org.example.MergeSort.MergeSort;
 import static main.java.org.example.QuickSort.QuickSort;
 import static main.java.org.example.HeapSort.HeapSort;
+import static main.java.org.example.ShellSort.ShellSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -51,6 +52,12 @@ public class Main {
 
     HeapSort(ary);
     Display("Heap Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    ShellSort(ary);
+    Display("Shell Sort", ary);
 
   }
 }
