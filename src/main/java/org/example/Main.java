@@ -19,6 +19,7 @@ import static main.java.org.example.StoogeSort.StoogeSort;
 import static main.java.org.example.PigeonholeSort.PigeonholeSort;
 import static main.java.org.example.OddEvenSort.OddEvenSort;
 import static main.java.org.example.CocktailSort.CocktailSort;
+import static main.java.org.example.StarndSort.StarndSort;
 
 public class Main {
   public static void main(String[] args) {
@@ -128,6 +129,12 @@ public class Main {
 
     CocktailSort(ary);
     Display("Cocktail Sort", ary);
+
+    Shuffle(ary);
+    Display("Shuffled", ary);
+
+    StarndSort(ary);
+    Display("Starnd Sort", ary);
 
   }
 }
